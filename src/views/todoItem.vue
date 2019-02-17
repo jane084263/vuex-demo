@@ -1,19 +1,18 @@
 <template>
-    <div class="about">
-        <!--<div>{{count}}</div>-->
+    <div class="todoItem">
     </div>
 </template>
 <script>
     import { mapState,mapGetters,mapMutations} from 'vuex';
     export default {
-        name: 'about',
+        name: 'todoItem',
         data:function () {
             return {
-//                localCount:2
             }
         },
-//        computed: mapState({
-//            count:state => state.count
-//        }),
+
     }
 </script>
+<style lang="scss">
+
+</style>
